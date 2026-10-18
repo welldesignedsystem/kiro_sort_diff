@@ -1,0 +1,244 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Set up project structure and shared data models": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296003576
+      },
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296020959
+      },
+      {
+        "executionId": "e64b4da4-9b84-43b5-9bb5-e83f91cc6b27",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296060650
+      },
+      {
+        "executionId": "e64b4da4-9b84-43b5-9bb5-e83f91cc6b27",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296331459
+      }
+    ],
+    "2.1 Create `word_list.py` with the `PREDEFINED_WORDS` constant": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296003868
+      },
+      {
+        "executionId": "e64b4da4-9b84-43b5-9bb5-e83f91cc6b27",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296338726
+      },
+      {
+        "executionId": "e64b4da4-9b84-43b5-9bb5-e83f91cc6b27",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296569350
+      }
+    ],
+    "3.1 Implement `bubble_sort(strings: List[str]) -> SortResult` in `algorithms.py`": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296004064
+      },
+      {
+        "executionId": "e64b4da4-9b84-43b5-9bb5-e83f91cc6b27",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296573634
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297087995
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297091933
+      }
+    ],
+    "3.3 Implement `selection_sort(strings: List[str]) -> SortResult` in `algorithms.py`": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296004211
+      },
+      {
+        "executionId": "e64b4da4-9b84-43b5-9bb5-e83f91cc6b27",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296577819
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297097274
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297101006
+      }
+    ],
+    "3.5 Implement `quick_sort(strings: List[str]) -> SortResult` in `algorithms.py`": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296004293
+      },
+      {
+        "executionId": "e64b4da4-9b84-43b5-9bb5-e83f91cc6b27",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296581733
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297105164
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297109759
+      }
+    ],
+    "4. Checkpoint — algorithms complete": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296004395
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297142533
+      },
+      {
+        "executionId": "7eeb4cb4-3238-4a04-b915-8fd885516c1e",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792298410992
+      }
+    ],
+    "5.1 Implement `parse_input(raw: str) -> List[str]` in `logic.py`": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296004481
+      },
+      {
+        "executionId": "e64b4da4-9b84-43b5-9bb5-e83f91cc6b27",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296588306
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297113575
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297116966
+      }
+    ],
+    "5.3 Implement `_reference_sorted(strings: List[str], algorithm: str) -> List[str]` in `logic.py`": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296004565
+      },
+      {
+        "executionId": "e64b4da4-9b84-43b5-9bb5-e83f91cc6b27",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296593300
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297120788
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297125918
+      }
+    ],
+    "5.4 Implement `run_all_sorts(strings: List[str]) -> List[SortOutcome]` in `logic.py`": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296004645
+      }
+    ],
+    "6. Checkpoint — logic layer complete": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296004717
+      }
+    ],
+    "7.1 Create `app.py` with session state initialisation": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296004809
+      },
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297147059
+      },
+      {
+        "executionId": "7eeb4cb4-3238-4a04-b915-8fd885516c1e",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792298415867
+      }
+    ],
+    "7.2 Implement the input panel in `app.py`": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296004883
+      }
+    ],
+    "7.4 Implement the Sort button and sort execution flow in `app.py`": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296004977
+      }
+    ],
+    "7.5 Implement the results panel in `app.py`": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296005076
+      }
+    ],
+    "9. Final checkpoint — wire everything together": [
+      {
+        "executionId": "6acc7cc0-812e-41a7-9443-3c049ba99568",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296005177
+      }
+    ],
+    "2. Implement the predefined word list": [
+      {
+        "executionId": "e64b4da4-9b84-43b5-9bb5-e83f91cc6b27",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792296569550
+      }
+    ],
+    "3. Implement sorting algorithms": [
+      {
+        "executionId": "14f65b0d-2e48-4d05-a9ef-9a70fbcf4d31",
+        "chatSessionId": "sess_5fb36431-f3fe-4e02-a57a-f5803ea0cda9",
+        "timestamp": 1792297109889
+      }
+    ]
+  }
+}

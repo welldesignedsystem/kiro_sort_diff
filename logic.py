@@ -46,12 +46,8 @@ def _reference_sorted(strings: List[str], algorithm: str) -> List[str]:
     Returns the expected correct sort order for the given algorithm.
     Used by the accuracy check (Req 7.1, 7.4).
 
-    - Bubble Sort / Selection Sort / Merge Sort: case-sensitive ascending (Python default)
-    - Quick Sort: case-insensitive ascending with case-sensitive tie-breaking
+    All algorithms use ascending ASCII/Unicode order (Python default sorted()).
     """
-    if algorithm == "Quick Sort":
-        return sorted(strings, key=lambda s: (s.casefold(), s))
-    # Bubble Sort and Selection Sort both use Python's default sort order
     return sorted(strings)
 
 

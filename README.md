@@ -1,4 +1,4 @@
-# String Sort Visualizer
+# String Sort Visualizer App
 
 A Streamlit app that sorts strings using Bubble Sort, Selection Sort, and Quick Sort — showing the sorted output, comparison step count, and accuracy check for each algorithm side by side.
 

@@ -34,3 +34,9 @@ jobs:
 
       - name: Verify app imports cleanly
         run: uv run python -c "import app; print('app.py OK')"
+
+      - name: Notify deployment
+        if: github.event_name == 'push' && success()
+        run: |
+          echo "✅ Tests passed. Streamlit Community Cloud will redeploy automatically."
+          echo "🔗 App URL: https://blank-app-pw0223jpz6.streamlit.app/"

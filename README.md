@@ -68,3 +68,35 @@ push to main
             └── verify app imports cleanly
                     └── on success → Streamlit Community Cloud redeploys
 ```
+
+---
+
+## Run from Docker Hub
+
+No Python or dependencies needed — just Docker.
+
+Pull and run in one command:
+
+```bash
+docker run -p 8501:8501 welldesignedsystem/string-sort-visualizer:latest
+```
+
+Then open http://localhost:8501 in your browser.
+
+To run in the background:
+
+```bash
+docker run -d -p 8501:8501 --name sort-visualizer welldesignedsystem/string-sort-visualizer:latest
+```
+
+Stop it with:
+
+```bash
+docker stop sort-visualizer
+```
+
+Pull the latest image manually (if you already have an older version):
+
+```bash
+docker pull welldesignedsystem/string-sort-visualizer:latest
+```

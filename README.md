@@ -40,3 +40,31 @@ To skip the performance test:
 ```bash
 uv run pytest -m "not perf"
 ```
+
+## Deploy to Streamlit Community Cloud
+
+Streamlit Community Cloud deploys directly from your GitHub repo — no deploy command needed. It watches your branch and redeploys automatically on every push.
+
+### One-time setup
+
+1. Push this repo to GitHub
+2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub
+3. Click **New app**
+4. Set:
+   - **Repository**: `your-username/your-repo`
+   - **Branch**: `main`
+   - **Main file path**: `app.py`
+5. Click **Deploy**
+
+After the first deploy, every push to `main` that passes CI will trigger an automatic redeploy.
+
+### CI / CD flow
+
+```
+push to main
+    └── GitHub Action (ci.yml)
+            ├── install deps with uv
+            ├── run pytest (skipping perf tests)
+            └── verify app imports cleanly
+                    └── on success → Streamlit Community Cloud redeploys
+```
